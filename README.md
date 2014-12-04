@@ -23,16 +23,16 @@ Setup:
 
 3) Install atleast python 2.7, make sure curl is setup on your local
 
-4) go back to the git folder, and run the script with options below
+4) go back to the git folder of your AEM Code base, and run the script with options below
 
 
 Running script Options:
 
-1) Detects the changes on your git , and deploys those changes
+1) Detects the changes on your git , and deploys your git status changes
 Mac: python $deploycq
 win: python %deploycq%
 
-2) If you have done a recent pull, use this command. It detects all the changes happened in the last pull request and deploys them. Doesn't go back more than 1pull request
+2) If you have done a recent pull, use can use this command. It detects  the changes happened in the last pull request and deploys them. Doesn't go back more than 1 pull request
 
 Mac: python $deploycq -i pull
 win: python %deploycq% -i pull

@@ -3,7 +3,7 @@ DeveloperTools
 </h1>
 
 <h2>
-Building python scripts for AEM UI developers
+Python scripts for AEM UI developers
 </h2>
 Once you setup the script, on running the script from your git repository  folder it will check for the uncommited changes(does git status) and deploys it to your localinstance. This is a developer script for AEM.
 
